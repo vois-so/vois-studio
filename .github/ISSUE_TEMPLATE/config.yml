@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question about Vois Studio
+    url: https://github.com/vois-so/vois-studio/discussions/categories/q-a
+    about: Write your question in Discussions.
+  - name: Billing, license or account
+    url: https://vois.so/faq?utm_source=github&utm_medium=vois-studio&utm_campaign=oss
+    about: Read the FAQ, or send an email to support@vois.so. Do not put a license key in a public issue.
+  - name: Security problem
+    url: https://github.com/vois-so/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Read the security policy.
+  - name: Discord
+    url: https://discord.gg/7e7fnE55Nh
+    about: Speak with other users of Vois Studio.

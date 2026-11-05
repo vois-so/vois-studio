@@ -1,0 +1,93 @@
+name: Problem in Vois Studio
+description: Tell us about something in Vois Studio that does not operate correctly.
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Do not put a license key, an email address or a private script in it.
+        For billing and license questions, send an email to support@vois.so.
+  - type: input
+    id: version
+    attributes:
+      label: Vois Studio version
+      description: Open the About window of Vois Studio to see the version.
+      placeholder: "2.6.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS (Apple Silicon)
+        - Windows 11
+        - Windows 10
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Engine
+      description: Select the engines that show the problem.
+      multiple: true
+      options:
+        - Fast
+        - Expressive
+        - Multilingual
+        - Omni
+        - Sonic
+        - Craft
+        - Not about an engine
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where do you see the problem?
+      options:
+        - The Vois Studio app
+        - vois-cli
+        - An AI agent with Vois Studio
+        - The website or the download
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What occurs?
+      description: Tell us what you see. Add a screenshot if it helps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What must occur?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: Give the steps that cause the problem, one step on each line.
+      placeholder: |
+        1. Open a script.
+        2. Select the Omni engine.
+        3. Select Generate Audio.
+    validations:
+      required: true
+  - type: input
+    id: error-code
+    attributes:
+      label: Error code
+      description: If Vois Studio shows an error code, put it here.
+      placeholder: "E3010"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I looked for an issue about the same problem.
+          required: true
+        - label: This issue has no license key, email address or private script.
+          required: true

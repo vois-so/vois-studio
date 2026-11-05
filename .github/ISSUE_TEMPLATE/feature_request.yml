@@ -1,0 +1,45 @@
+name: New feature for Vois Studio
+description: Tell us about a feature that you want in Vois Studio.
+labels: ["feature", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you open a new issue, look for an issue about the same feature. If you find one, add a thumbs-up reaction to it. We use the reactions when we plan the work.
+  - type: textarea
+    id: goal
+    attributes:
+      label: What do you want to do?
+      description: Tell us about the task, not about the solution. For example, "I make a podcast with two hosts every week."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What stops you at this time?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: If you have an idea for the feature, tell us here.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Voices and engines
+        - Script editor
+        - Export
+        - Voice cloning
+        - vois-cli and AI agents
+        - Languages
+        - Other
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I looked for an issue about the same feature.
+          required: true
