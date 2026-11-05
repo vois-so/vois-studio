@@ -8,9 +8,7 @@ To tell us what is important to you, add a thumbs-up reaction to an issue. To te
 
 ## Started
 
-| Item | What it gives you | Plan |
-| --- | --- | --- |
-| [Agent skills](https://github.com/vois-so/vois-studio/issues/2) | Skills that tell an AI agent how to do one audio task with Vois Studio, for example a voiceover for a Remotion video. | December 2026 |
+Nothing at this time. The next items follow.
 
 ## Next
 
@@ -31,6 +29,7 @@ To tell us what is important to you, add a thumbs-up reaction to an issue. To te
 
 - November 2026: this public issue list, the roadmap and the release notes on GitHub.
 - November 2026: [agent-voice](https://github.com/vois-so/agent-voice). Claude Code, Codex, Cursor and Gemini CLI speak a short summary at the end of a task.
+- November 2026: [skills](https://github.com/vois-so/skills). 16 skills that tell an AI agent how to do one audio task with Vois Studio.
 - November 2026: [speech-endpoint](https://github.com/vois-so/speech-endpoint). Apps that use the OpenAI speech API can use Vois Studio voices.
 
 The [release notes](https://github.com/vois-so/vois-studio/releases) show each change in the app.
