@@ -14,7 +14,6 @@ Nothing at this time. The next items follow.
 
 | Item | What it gives you | Plan |
 | --- | --- | --- |
-| [Install with Homebrew](https://github.com/vois-so/vois-studio/issues/4) | Install and update Vois Studio on a Mac with one command. | December 2026 |
 | [Install with winget](https://github.com/vois-so/vois-studio/issues/5) | Install and update Vois Studio on Windows with one command. | December 2026 |
 
 ## After that
@@ -28,6 +27,7 @@ Nothing at this time. The next items follow.
 - November 2026: this public issue list, the roadmap and the release notes on GitHub.
 - November 2026: [agent-voice](https://github.com/vois-so/agent-voice). Claude Code, Codex, Cursor and Gemini CLI speak a short summary at the end of a task.
 - November 2026: [article-narrator](https://github.com/vois-so/article-narrator). An audio version of each post on a blog or a documentation site, with a small player on the page.
+- November 2026: [homebrew-tap](https://github.com/vois-so/homebrew-tap). Install and update Vois Studio on an Apple Silicon Mac with one command: `brew install --cask vois-so/tap/vois-studio`.
 - November 2026: [skills](https://github.com/vois-so/skills). 16 skills that tell an AI agent how to do one audio task with Vois Studio.
 - November 2026: [speech-endpoint](https://github.com/vois-so/speech-endpoint). Apps that use the OpenAI speech API can use Vois Studio voices.
 - November 2026: [video-voiceover](https://github.com/vois-so/video-voiceover). Remotion and HyperFrames templates. An agent writes the script and Vois Studio speaks it. A transcript check makes new takes of incorrect lines, and the captions follow the words.
